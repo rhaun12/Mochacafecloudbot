@@ -7,9 +7,5 @@ bot.on('ready', () =>{
     console.log('Mocha Bot Online');
 })
 bot.on('message', msg=>{
-    if(msg.content === "Hello")
-        msg.reply("Hello Friend")
-})
-bot.on('message', msg=>{
 bot.login(token);
 client.login(process.enc.BOT_TOKEN);
