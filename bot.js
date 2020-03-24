@@ -11,10 +11,6 @@ bot.on('message', msg=>{
         msg.reply("Hello Friend")
 })
 bot.on('message', msg=>{
-,    if(msg.content === "!group")
-        msg.reply("Here you go:  https://www.roblox.com/groups/3183170/Mocha-Cafe-Coffee-and-Cream#!/about")
-})
-bot.on('message', msg=>{
     if(msg.content === "!robloxgroup")
         msg.reply("Here you go:  https://www.roblox.com/groups/3183170/Mocha-Cafe-Coffee-and-Cream#!/about")
 })
